@@ -2,17 +2,17 @@ COM 747 Project
 
 TO DO
 
-[JACK] Normalise data 
+[JACK] Normalise data [DONE]
 
 [Ciaran] Identify data distribution (e.g., normal, skewed).
 
 Dimensionality reduction 
 
-[JACK] Correlation analysis with heat map
+[JACK] Correlation analysis with heat map [DONE]
 
 [Ciaran] Distribution of data with histograms and scatterplots
 
-[JACK] Regression
+[JACK] Regression [DONE]
 
 [JACK] Machine learning exploration
     Boosting algorithms - XGB, CATBoost, LightGBM, AdaBoost, GB
