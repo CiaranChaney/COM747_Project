@@ -8,8 +8,8 @@ library(MASS)
 library(caret)
 
 #Read Dataset
-data_path_2 <-paste0('C:/Users/bowes/Downloads/numerical_stroke_data.csv')
-data_path_3 <-paste0('C:/Users/bowes/Downloads/numerical_heart_data.csv')
+data_path_2 <-paste0('PGCERT/COM747_Project/numerical_stroke_data.csv')
+data_path_3 <-paste0('PGCERT/COM747_Project/numerical_heart_data.csv')
 dataset <- read.csv(paste0(data_path_3))
 
 #Scale nonbinary data
