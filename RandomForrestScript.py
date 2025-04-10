@@ -1,4 +1,3 @@
-#Jack's generic machine learning script
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -20,10 +19,7 @@ import pathlib
 
 print("Starting Process")
 
-filepath_1= 'C:/Users/bowes/Downloads/numerical_heart_data.csv'
 filepath1= os.path.join(pathlib.Path(__file__).parent.resolve(), 'numerical_heart_data.csv')
-
-filepath_2 = 'C:/Users/bowes/Downloads/numerical_stroke_data.csv'
 filepath2 = os.path.join(pathlib.Path(__file__).parent.resolve(), 'numerical_stroke_data.csv')
 
 print(f"Path:1 {filepath1}")
